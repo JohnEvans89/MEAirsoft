@@ -83,7 +83,7 @@ different background color for the even content div elements. */
 and left values to 0. here the footer is placed at the bottom of the 
 browser by considering the browser as its parent element. 
 and footer has child element. #242539;*/
-.footer{
+footer{
 	width: 100%;
 	height: 60px;
 	line-height: 60px;
