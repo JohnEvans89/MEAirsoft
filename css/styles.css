@@ -53,6 +53,9 @@ ul li:hover{
 	background: #E63946;
 }
 
+.teamMembers{
+    background-color:red;
+}
 
 /* style the footer, by setting its position value to fixed and its bottom 
 and left values to 0. here the footer is placed at the bottom of the 
@@ -68,7 +71,7 @@ footer{
 	left: 0;
 }
 
-.footer p{
+.footer a{
 	font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
