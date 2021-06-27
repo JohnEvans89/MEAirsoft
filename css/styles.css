@@ -53,31 +53,33 @@ ul li:hover{
 	background: #E63946;
 }
 
-.teamMembers{
-    background-color:red;
-}
 
 /* style the footer, by setting its position value to fixed and its bottom 
 and left values to 0. here the footer is placed at the bottom of the 
 browser by considering the browser as its parent element. 
 and footer has child element. #242539;*/
 footer{
-	width: 100%;
+	/* width: 100%;
 	height: 60px;
 	line-height: 60px;
-	background: #242539;
 	position: fixed;
 	bottom: 0;
+	left: 0; */
+	
+	position: absolute;
 	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #242539;
+	
+	
+
+	/* background: #242539;
+	
+  
+  height: 2.5rem;    */
 }
 
-.footer a{
-	font-weight: 700;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 20px;
-	color: #fff;
-}
 
 
 
